@@ -2,7 +2,6 @@
 @prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ubi: <http://www.owl-ontologies.com/ubi#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
@@ -132,7 +131,7 @@ base:se_encuentra_en a owl:ObjectProperty ;
         base:Polideportivo ;
     rdfs:range base:Ubicacion .
 
-ubi:se_encuentra_en a owl:ObjectProperty ;
+base:se_encuentra_en a owl:ObjectProperty ;
     rdfs:label "se_encuentra_en" ;
     rdfs:domain base:Aparcabicis ;
     rdfs:range base:Ubicacion .
